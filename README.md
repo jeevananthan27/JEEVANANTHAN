@@ -1,5 +1,6 @@
-<h1 align="center">Hi 👋, I'm Jeevananthan A</h1>
-<h3 align="center">Computer Science Engineer | Frontend Developer | Cloud Enthusiast</h3>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Jeevananthan%20A&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Frontend%20Developer%20%7C%20Cloud%20Enthusiast%20%7C%20Builder&descAlignY=55&descSize=18" width="100%"/>
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2E9EF7&width=600&lines=Frontend+Developer+Intern+%40+PSG+Hospital;Cloud+Consultant+Intern+%40+Cloudvice;React.js+%7C+Node.js+%7C+TypeScript;Always+learning%2C+always+building." alt="Typing SVG" />
@@ -110,14 +111,12 @@ Led a team of 6 to build a website that lets users generate OTPs via offline QR 
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=jeevananthan27&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeevananthan27/&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeevananthan27&theme=tokyonight&hide_border=true" width="48%" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevananthan27&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
 </p>
-
-> ⚠️ Replace `YOUR_GITHUB_USERNAME` above with your actual GitHub username so the stats cards display your real activity.
 
 ---
 
