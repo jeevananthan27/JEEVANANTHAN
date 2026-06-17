@@ -1,29 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=10&section=header" width="100%"/>
-</p>
-
-<!--  BANNER  -->
-<p align="center">
-  <a href="https://jeeva27dips.vercel.app/">
-    <img src="https://jeeva27dips.vercel.app/assets/logo_JN.png" width="72" alt="JN Logo" style="border-radius:50%; vertical-align:middle; margin-right:16px"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=36&pause=2000&color=FF2EF7&center=true&vCenter=true&width=700&height=60&lines=JEEVANANTHAN+A" alt="Name" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1500&color=00F5C4&center=true&vCenter=true&width=600&height=32&lines=Program+Analyst+%E2%80%A2+PSG+Hospital;Full+Stack+Developer+%E2%80%A2+Future+AI+Engineer;React+%26+Node.js+%7C+Oracle+%7C+Cloud+Technologies" alt="Roles" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React_%26_Node.js-FF2EF7?style=flat-square&logoColor=white&logo=react" />
-  <img src="https://img.shields.io/badge/Oracle_SQL-00F5C4?style=flat-square&logoColor=black&logo=oracle" />
-  <img src="https://img.shields.io/badge/Learning_Python-A78BFA?style=flat-square&logoColor=white&logo=python" />
-  <img src="https://img.shields.io/badge/Linux_%26_Docker-38BDF8?style=flat-square&logoColor=white&logo=docker" />
-  <img src="https://img.shields.io/badge/AI_Engineering-F59E0B?style=flat-square&logoColor=black&logo=openai" />
-  <img src="https://img.shields.io/badge/Cloud_Technologies-10B981?style=flat-square&logoColor=white&logo=googlecloud" />
+  <img src="./banner.svg" width="100%" alt="Jeevananthan A Banner"/>
 </p>
 
 <p align="center">
