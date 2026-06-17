@@ -1,38 +1,59 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Jeevananthan%20A&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Frontend%20Developer%20%7C%20Cloud%20Enthusiast%20%7C%20Builder&descAlignY=55&descSize=17" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=10&section=header" width="100%"/>
+</p>
+
+<!--  BANNER  -->
+<p align="center">
+  <a href="https://jeeva27dips.vercel.app/">
+    <img src="https://jeeva27dips.vercel.app/assets/logo_JN.png" width="72" alt="JN Logo" style="border-radius:50%; vertical-align:middle; margin-right:16px"/>
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2E9EF7&width=600&lines=Frontend+Developer+%40+PSG+Hospital;Cloud+Consultant+%40+Cloudvice;React.js+%7C+Node.js+%7C+TypeScript;Always+learning%2C+always+building." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=36&pause=2000&color=FF2EF7&center=true&vCenter=true&width=700&height=60&lines=JEEVANANTHAN+A" alt="Name" />
 </p>
 
 <p align="center">
-  <img src="https://user-attachments.githubusercontent.com/25e5ab5a-df8f-427c-ac8f-b4d51c8d2401.png" width="80" alt="Logo" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1500&color=00F5C4&center=true&vCenter=true&width=600&height=32&lines=Program+Analyst+%E2%80%A2+PSG+Hospital;Full+Stack+Developer+%E2%80%A2+Future+AI+Engineer;React+%26+Node.js+%7C+Oracle+%7C+Cloud+Technologies" alt="Roles" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React_%26_Node.js-FF2EF7?style=flat-square&logoColor=white&logo=react" />
+  <img src="https://img.shields.io/badge/Oracle_SQL-00F5C4?style=flat-square&logoColor=black&logo=oracle" />
+  <img src="https://img.shields.io/badge/Learning_Python-A78BFA?style=flat-square&logoColor=white&logo=python" />
+  <img src="https://img.shields.io/badge/Linux_%26_Docker-38BDF8?style=flat-square&logoColor=white&logo=docker" />
+  <img src="https://img.shields.io/badge/AI_Engineering-F59E0B?style=flat-square&logoColor=black&logo=openai" />
+  <img src="https://img.shields.io/badge/Cloud_Technologies-10B981?style=flat-square&logoColor=white&logo=googlecloud" />
 </p>
 
 <p align="center">
   <a href="https://jeeva27dips.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-2E9EF7?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=FF2EF7" />
   </a>
   <a href="https://www.linkedin.com/in/jeevananthan-a-420848266" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=00F5C4" />
   </a>
   <a href="mailto:jeevakowshick2127@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=FF2EF7" />
   </a>
   <a href="https://github.com/jeevananthan27" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=00F5C4" />
   </a>
 </p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%93%8D_Tamil_Nadu,_India-0d1117?style=flat-square&logoColor=00F5C4" />
+</p>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
 
 ### 🧑‍💻 About Me
 
 B.E. Computer Science & Engineering graduate from **Bannari Amman Institute of Technology**, Erode (CGPA: 7.48), with a minor in Sensor Technologies & IoT. I build responsive, impactful web applications and have hands-on exposure to cloud enterprise platforms.
 
-- 🏥 **Frontend Developer Intern** @ PSG Hospital, Coimbatore — building healthcare web apps
+- 🏥 **Program Analyst** @ PSG Hospital, Coimbatore — building healthcare web apps
 - ☁️ **Associate Cloud Consultant Intern** @ Cloudvice, Kochi — Oracle Cloud ecosystem
+- 🤖 Exploring **AI Engineering**, **Python**, **Linux**, and **Docker**
 - 📍 Punjai Puliampatti, Tamil Nadu | 📞 6380303160
 
 ---
@@ -81,7 +102,7 @@ B.E. Computer Science & Engineering graduate from **Bannari Amman Institute of T
 
 | Role | Organization | Duration |
 |---|---|---|
-| Frontend Developer Intern | PSG Hospital, Coimbatore | Aug 2025 – Present |
+| Program Analyst | PSG Hospital, Coimbatore | Aug 2025 – Present |
 | Associate Cloud Consultant Intern | Cloudvice, Kochi | Mar – Jun 2025 |
 | IoT & Android Developer Intern | AJ Tech, Coimbatore | Jan – Feb 2023 |
 | Automation Intern | Chettinad Cement, Karur | Apr – May 2022 |
@@ -136,7 +157,3 @@ Led a team of 6 to build a website enabling offline OTP generation via QR scanni
 </p>
 
 <p align="center"><i>Let's build something great together 🚀</i></p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
-</p>
