@@ -1,4 +1,5 @@
-<p align="center">
+<img width="1440" height="708" alt="image" src="https://github.com/user-attachments/assets/8af1d795-7844-4d08-a04b-1195c8c738b9" />
+<img width="1440" height="708" alt="image" src="https://github.com/user-attachments/assets/25e5ab5a-df8f-427c-ac8f-b4d51c8d2401" /><p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Jeevananthan%20A&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Frontend%20Developer%20%7C%20Cloud%20Enthusiast%20%7C%20Builder&descAlignY=55&descSize=18" width="100%"/>
 </p>
 
@@ -24,7 +25,7 @@
 
 I'm an inquisitive and sincere Computer Science Engineering graduate (B.E, with a Minor in Electronics and Instrumentation Engineering) from **Bannari Amman Institute of Technology**, Erode. I'm driven to use my technical skills to build impactful, real-world projects — and I'm currently growing my expertise across frontend development and cloud platforms through hands-on internships.
 
-- 🏥 Currently working as a **Frontend Developer Intern** at **PSG Hospital, Coimbatore**, building responsive healthcare web applications
+- 🏥 Currently working as a **Frontend Developer** at **PSG Hospital, Coimbatore**, building responsive healthcare web applications
 - ☁️ Previously interned as an **Associate Cloud Consultant** at **Cloudvice, Kochi**, working with Oracle Cloud tools
 - 🎓 B.E in Computer Science and Engineering (2021–2025), CGPA: 7.48
 - 🌱 Always learning — IoT, Machine Learning, Cloud, and Full-Stack Web Development
