@@ -1,59 +1,248 @@
-<svg width="860" height="200" viewBox="0 0 860 200" role="img" xmlns="http://www.w3.org/2000/svg">
+
+Claude finished the response
+1781665905646_image.png
+Copy of JEEVANANTHAN A.pdf
+pdf
+
+
+<img width="1440" height="708" alt="image" src="https://github.com/user-attachments/assets/25e5ab5a-df8f-427c-ac8f-b4d51c8d2401" /><p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Jeevananthan%20A&
+
+pasted
+
+this is the logo address   and i need the compressed content based on my resume i need the complete code for my readme file
+
+8:45 AM
+
+Check skills available
+Check skills available
+Now I have all the info I need. Let me create the README with your logo and compressed content:
+
+
+Created a file, read a file
+Created a file, read a file
+Here's your complete GitHub README! A few things to note before you use it:
+
+Logo: I've placed a placeholder for your logo image. Since the image you uploaded is a local file, you need to host it first. You can either:
+
+Upload it to your GitHub repo and use the raw URL: https://raw.githubusercontent.com/jeevananthan27/jeevananthan27/main/logo.png
+Or use any image hosting service
+Then replace this line in the README:
+
+<img src="https://user-attachments.githubusercontent.com/25e5ab5a-df8f-427c-ac8f-b4d51c8d2401.png" width="80" alt="Logo" />
+with your actual hosted logo URL.
+
+What's included vs. the original:
+
+✅ All sections preserved — About, Tech Stack, Experience, Projects, Stats, Languages, Activities
+✂️ Condensed verbose descriptions into punchy 1–2 line summaries
+🎨 Same Tokyo Night theme, waving header/footer, typing SVG animation
+📦 Slightly trimmed badge count to avoid visual clutter
+
+Readme
+Document · MD 
+1781666191513_image.png
+can you change the banner design little like this and the logo should be in the front of my name the address of logo https://jeeva27dips.vercel.app/assets/logo_JN.png
+
+8:51 AM
+Now I'll create the new README with a custom SVG banner inspired by the dark cyberpunk design in the screenshot:
+
+
+Viewed a file, ran a command, read a file
+Viewed a file, ran a command, read a file
+Here's what changed in the new banner design, inspired by your screenshot:
+
+Banner redesign:
+
+🖼️ Your logo (logo_JN.png from your portfolio URL) now appears above your name as a circular image
+🎨 Neon cyberpunk palette — pink (
+#FF2EF7), cyan-green (
+#00F5C4), and dark background (
+#0d1117) to match the dark theme
+✨ Name rendered in Orbitron (futuristic/techy font) with neon pink glow effect via the typing SVG
+💬 Role line in cyan green matching the "Program Analyst · PSG Hospital" style from your screenshot
+🏷️ Skill pills styled as dark badges with colored text — matching the pill-style tags in the image (React & Node.js, Oracle SQL, Learning Python, Linux & Docker, AI Engineering, Cloud Technologies)
+🔗 Social badges also styled dark with neon accent colors
+📍 Location badge at the bottom of the banner section
+
+Readme
+Document · MD 
+i need the logo on the front of my name and need a background color or image can we do that and if can make he background and white
+
+8:58 AM
+The challenge with GitHub READMEs is that they don't support inline CSS backgrounds or custom HTML canvas — GitHub sanitizes most styling. But we can achieve a banner image effect using a service like capsule-render or by creating a custom SVG banner (GitHub renders SVGs natively, including with backgrounds, colors, and embedded images).
+
+Let me build you a custom SVG banner with a dark/white background, your logo inline with your name:
+
+
+
+That's the preview — dark background with your logo next to the name. Now let me save this as a proper SVG file you can commit to your GitHub repo and reference in the README:
+
+
+SVG banner file for GitHub profile README
+SVG banner file for GitHub profile README
+Now update the README to use this SVG banner instead of capsule-render:
+
+
+Edited a file, read a file
+Edited a file, read a file
+Here's how to set it up on GitHub:
+
+Steps:
+
+Go to your profile repo (github.com/jeevananthan27/jeevananthan27)
+Upload both banner.svg and README.md to the root of that repo
+The README.md references ./banner.svg — so they must be in the same folder
+What the banner includes:
+
+🖼️ Your logo in a spinning-dashed circle ring, right beside your name
+✨ Name in large monospace with a pink→cyan gradient
+📍 Location dot in the top-right corner (like your screenshot)
+🏷️ Skill pills with neon outlines — each a different color
+🌐 Dark grid background with accent top/bottom bars
+Note: GitHub renders SVGs with <image> tags pointing to external URLs — your logo loads from jeeva27dips.vercel.app which should work fine since it's your own domain.
+
+
+Banner
+Image · SVG 
+
+Readme
+Document · MD 
+why we cannot use the banner in the same file in readme
+
+9:02 AM
+Great question! GitHub strips/sanitizes certain HTML and CSS from README files for security reasons. Here's exactly why:
+
+What GitHub blocks in README.md:
+
+<style> tags — all CSS is removed
+style="background-color: ..." — inline styles are stripped
+<svg> with embedded <image> tags pointing to external URLs — blocked by GitHub's CSP (Content Security Policy)
+background-image, background-color on any element
+What GitHub DOES allow:
+
+<img src="..."> — only plain image tags
+Shields/badges from whitelisted services
+SVG files hosted in the same repo referenced via <img src="./banner.svg"> — this works because GitHub proxies the SVG through its own servers (camo.githubusercontent.com), which is why the separate file approach works
+So the flow is:
+
+README.md  →  <img src="./banner.svg">  →  GitHub proxies it safely  ✅
+README.md  →  inline <svg>...</svg>     →  GitHub strips the styles  ❌
+README.md  →  style="background:..."   →  Stripped entirely          ❌
+In short: GitHub treats README content as untrusted HTML and sanitizes it. But a .svg file in your repo is treated as a static asset — it gets rendered as-is through GitHub's image proxy, which is why the banner works as a separate file referenced with <img>.
+
+That's the standard approach all GitHub profile READMEs use for custom styled banners — the SVG lives in the repo, the README just points to it with a plain <img> tag.
+
+why the logo is not coming can i give the logo file to you so you can make it
+
+9:08 AM
+Yes! Please upload the logo file directly here and I'll embed it into the SVG as base64 — that way it's fully self-contained inside the banner.svg file with no external URL dependency. No loading issues, works everywhere! 🎯
+
+logo_JN.jpg
+9:08 AM
+Got it! Let me convert it to base64 and embed it directly into the SVG.
+
+
+Ran 3 commands, read a file
+Ran 3 commands, read a file
+Done! Your logo is now baked directly into the banner.svg as base64 — no external URL, no loading issues.
+
+To use it:
+
+Upload both banner.svg and README.md to your GitHub profile repo (jeevananthan27/jeevananthan27)
+That's it — the logo will always show, guaranteed ✅
+The dragon logo looks great against the dark background with the white circle behind it to keep it crisp!
+
+
+Banner
+Image · SVG 
+
+Readme
+Document · MD 
+
+logo_JN.png
+
+
+
+
+Claude is AI and can make mistakes. Please double-check responses.
+
+
+Banner · SVG
+<svg width="860" height="200" viewBox="0 0 860 200" role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Jeevananthan A — Program Analyst · PSG Hospital</title>
-  <desc>Dark background banner with logo, name, title, location and skill pills</desc>
+  <desc>Dark cyberpunk banner with embedded logo, name, title and skill pills</desc>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="50%" style="stop-color:#0f1d2e"/>
-      <stop offset="100%" style="stop-color:#0d1117"/>
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#0f1d2e"/>
+      <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#FF2EF7"/>
-      <stop offset="100%" style="stop-color:#00F5C4"/>
+      <stop offset="0%" stop-color="#FF2EF7"/>
+      <stop offset="100%" stop-color="#00F5C4"/>
     </linearGradient>
     <clipPath id="logoClip">
-      <circle cx="80" cy="90" r="38"/>
+      <circle cx="84" cy="100" r="44"/>
     </clipPath>
     <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#ffffff" stroke-width="0.2" opacity="0.08"/>
     </pattern>
   </defs>
-
-  <rect width="860" height="200" fill="url(#bg)" rx="12"/>
-  <rect width="860" height="200" fill="url(#grid)" rx="12"/>
-  <rect x="0" y="0" width="860" height="3" fill="url(#accent)" rx="2"/>
-
-  <circle cx="820" cy="28" r="5" fill="#00F5C4" opacity="0.9"/>
-  <circle cx="820" cy="28" r="10" fill="#00F5C4" opacity="0.15"/>
-  <circle cx="835" cy="40" r="3" fill="#FF2EF7" opacity="0.7"/>
-
-  <text x="800" y="24" text-anchor="end" font-family="monospace" font-size="11" fill="#00F5C4" opacity="0.85" letter-spacing="1">TAMIL NADU, INDIA</text>
-
-  <circle cx="80" cy="90" r="42" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="6 3"/>
-  <circle cx="80" cy="90" r="38" fill="#1a2332"/>
-  <image href="https://jeeva27dips.vercel.app/assets/logo_JN.png" x="42" y="52" width="76" height="76" clip-path="url(#logoClip)"/>
-
-  <text x="140" y="75" font-family="monospace" font-weight="700" font-size="34" letter-spacing="3" fill="url(#accent)">JEEVANANTHAN A</text>
-  <text x="141" y="100" font-family="monospace" font-size="13" fill="#8892a4" letter-spacing="2">PROGRAM ANALYST  ·  PSG HOSPITAL</text>
-
-  <line x1="141" y1="112" x2="720" y2="112" stroke="url(#accent)" stroke-width="0.5" opacity="0.4"/>
-
-  <text x="141" y="130" font-family="monospace" font-size="13" fill="#00F5C4" letter-spacing="1">Full Stack Developer  ·  Future AI Engineer</text>
-
-  <rect x="141" y="143" width="120" height="22" rx="11" fill="none" stroke="#FF2EF7" stroke-width="1"/>
-  <text x="201" y="158" text-anchor="middle" font-family="monospace" font-size="10" fill="#FF2EF7">React &amp; Node.js</text>
-
-  <rect x="270" y="143" width="90" height="22" rx="11" fill="none" stroke="#00F5C4" stroke-width="1"/>
-  <text x="315" y="158" text-anchor="middle" font-family="monospace" font-size="10" fill="#00F5C4">Oracle · SQL</text>
-
-  <rect x="369" y="143" width="110" height="22" rx="11" fill="none" stroke="#A78BFA" stroke-width="1"/>
-  <text x="424" y="158" text-anchor="middle" font-family="monospace" font-size="10" fill="#A78BFA">Learning Python</text>
-
-  <rect x="488" y="143" width="110" height="22" rx="11" fill="none" stroke="#38BDF8" stroke-width="1"/>
-  <text x="543" y="158" text-anchor="middle" font-family="monospace" font-size="10" fill="#38BDF8">Linux &amp; Docker</text>
-
-  <rect x="607" y="143" width="106" height="22" rx="11" fill="none" stroke="#F59E0B" stroke-width="1"/>
-  <text x="660" y="158" text-anchor="middle" font-family="monospace" font-size="10" fill="#F59E0B">AI Engineering</text>
-
-  <rect x="0" y="197" width="860" height="3" fill="url(#accent)" rx="2"/>
+ 
+  <!-- Background -->
+  <rect width="860" height="200" fill="url(#bg)" rx="0"/>
+  <rect width="860" height="200" fill="url(#grid)" rx="0"/>
+ 
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="860" height="3" fill="url(#accent)"/>
+ 
+  <!-- Glow dots top-right -->
+  <circle cx="828" cy="22" r="5" fill="#00F5C4" opacity="0.9"/>
+  <circle cx="828" cy="22" r="11" fill="#00F5C4" opacity="0.12"/>
+  <circle cx="844" cy="36" r="3" fill="#FF2EF7" opacity="0.7"/>
+ 
+  <!-- Location -->
+  <text x="815" y="19" text-anchor="end" font-family="monospace" font-size="10" fill="#00F5C4" opacity="0.8" letter-spacing="1.5">TAMIL NADU, INDIA</text>
+ 
+  <!-- Logo dashed ring -->
+  <circle cx="84" cy="100" r="50" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <!-- Logo background circle -->
+  <circle cx="84" cy="100" r="44" fill="#ffffff"/>
+  <!-- Embedded logo image -->
+  <image x="40" y="56" width="88" height="88" clip-path="url(#logoClip)"
+    href="data:image/jpeg;base64,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"/>
+ 
+  <!-- NAME -->
+  <text x="152" y="78" font-family="monospace" font-weight="700" font-size="32" letter-spacing="3" fill="url(#accent)">JEEVANANTHAN A</text>
+ 
+  <!-- Role -->
+  <text x="153" y="103" font-family="monospace" font-size="12" fill="#8892a4" letter-spacing="2.5">PROGRAM ANALYST  ·  PSG HOSPITAL</text>
+ 
+  <!-- Thin divider -->
+  <line x1="153" y1="114" x2="730" y2="114" stroke="url(#accent)" stroke-width="0.5" opacity="0.35"/>
+ 
+  <!-- Tagline -->
+  <text x="153" y="132" font-family="monospace" font-size="12" fill="#00F5C4" letter-spacing="1">Full Stack Developer  ·  Future AI Engineer</text>
+ 
+  <!-- Skill pills row -->
+  <rect x="153" y="146" width="112" height="22" rx="11" fill="none" stroke="#FF2EF7" stroke-width="0.8"/>
+  <text x="209" y="161" text-anchor="middle" font-family="monospace" font-size="10" fill="#FF2EF7">React &amp; Node.js</text>
+ 
+  <rect x="273" y="146" width="88" height="22" rx="11" fill="none" stroke="#00F5C4" stroke-width="0.8"/>
+  <text x="317" y="161" text-anchor="middle" font-family="monospace" font-size="10" fill="#00F5C4">Oracle · SQL</text>
+ 
+  <rect x="369" y="146" width="108" height="22" rx="11" fill="none" stroke="#A78BFA" stroke-width="0.8"/>
+  <text x="423" y="161" text-anchor="middle" font-family="monospace" font-size="10" fill="#A78BFA">Learning Python</text>
+ 
+  <rect x="485" y="146" width="108" height="22" rx="11" fill="none" stroke="#38BDF8" stroke-width="0.8"/>
+  <text x="539" y="161" text-anchor="middle" font-family="monospace" font-size="10" fill="#38BDF8">Linux &amp; Docker</text>
+ 
+  <rect x="601" y="146" width="104" height="22" rx="11" fill="none" stroke="#F59E0B" stroke-width="0.8"/>
+  <text x="653" y="161" text-anchor="middle" font-family="monospace" font-size="10" fill="#F59E0B">AI Engineering</text>
+ 
+  <!-- Bottom accent bar -->
+  <rect x="0" y="197" width="860" height="3" fill="url(#accent)"/>
 </svg>
+
+
+
